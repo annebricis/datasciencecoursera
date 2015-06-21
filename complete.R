@@ -41,6 +41,6 @@ complete <- function(directory, id = 1:332) {
                 observations[count,2]<-length(data$sulfate[!is.na(data$sulfate) & !is.na(data$nitrate)])
                 
         }
-        print(observations)
+        observations
         
 }
